@@ -1,0 +1,21 @@
+[project]
+name = "cad"
+version = "0.0.1"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+log_cli = true
+log_format =  "%(levelname)s: %(filename)s:%(lineno)s %(message)s"
+python_files = ["*_test.py"]
+
+[tool.black]
+line-length = 100
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.pyright]
+reportShadowedImports = false
+reportUnusedExpression = false
