@@ -8,7 +8,7 @@ the relabeled node on each side is already equal. When running through the
 final proposed algorithm in my head for two equal trees, the cost wasn't zero
 which confused me greatly.
 
-The original paper: https://tinyurl.com/zhang-shasha-ted
+The original paper by Zhang and Shasha: https://tinyurl.com/zhang-shasha-ted
 """
 
 from collections.abc import Callable
