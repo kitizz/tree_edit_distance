@@ -16,7 +16,7 @@ from dataclasses import dataclass, field
 import dataclasses
 from functools import cache
 
-from .tree import TreeNode
+from tree import TreeNode
 
 
 @dataclass

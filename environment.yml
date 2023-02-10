@@ -5,4 +5,10 @@ channels:
 dependencies:
   - python=3.11
   - black
+  - ipykernel
+  - ipympl
+  - ipywidgets>=7.0,<8.0
+  - matplotlib
+  - numpy
   - pytest
+  - tqdm
