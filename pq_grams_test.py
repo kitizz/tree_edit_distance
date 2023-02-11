@@ -1,6 +1,6 @@
-from .tree import TreeNode, tree_from_dict
-from .pq_grams import pq_grams
-from .zhang_shasha import zhang_shasha, CostFunctions
+from tree import TreeNode, tree_from_dict
+from pq_grams import pq_grams
+from zhang_shasha import zhang_shasha, CostFunctions
 
 
 def fwted(a_tree: TreeNode, b_tree: TreeNode, *, q: int) -> float:

@@ -1,5 +1,5 @@
-from .tree import TreeNode, tree_from_dict
-from .zhang_shasha import CostFunctions, zhang_shasha
+from tree import TreeNode, tree_from_dict
+from zhang_shasha import CostFunctions, zhang_shasha
 
 
 def test_single_equal():
